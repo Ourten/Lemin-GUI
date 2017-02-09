@@ -1,0 +1,70 @@
+.root {
+	-fx-background-color: ALICEBLUE;
+}
+
+.name {
+	-fx-fill: #000000;
+	-fx-opacity: 0.87;
+	-fx-font-family: "Open Sans";
+}
+
+.node:hover {
+	-fx-fill: #76bdd5;
+	-fx-stroke: #6e6e6e;
+}
+
+.count {
+	-fx-fill: #424242;
+	-fx-opacity: 0.87;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+	-fx-font-family: "Open Sans";
+}
+
+.launch {
+	-fx-background-radius: 0 0 0 0;
+	-fx-background-color: #2196F3;
+	-fx-text-fill: #ffffff;
+	-fx-cursor: hand;
+	-fx-opacity: 0.87;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+	-fx-font-family: "Open Sans";
+}
+
+.launch:disabled {
+	-fx-opacity: 0.12;
+	-fx-background-color: #000000;
+}
+
+#ant {
+	-fx-fill: #BCAAA4;
+}
+
+#ant:hover {
+	-fx-fill: #D7CCC8;
+}
+
+#start {
+	-fx-fill: #FFF8E1;
+}
+
+#start:hover {
+	-fx-fill: #FFECB3;
+}
+
+#end {
+	-fx-fill: #C5E1A5;
+}
+
+#end:hover {
+	-fx-fill: #AED581;
+}
+
+#link {
+	-fx-opacity: 0.8;
+}
+
+#link:hover {
+	-fx-stroke: #404040;
+}
